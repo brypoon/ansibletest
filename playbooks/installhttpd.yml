@@ -1,7 +1,7 @@
 ---
 - name: Update web servers
   hosts: test
-  remote_user: root
+  remote_user: test
 
   tasks:
   - name: Ensure apache is at the latest version

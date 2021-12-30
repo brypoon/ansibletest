@@ -1,6 +1,0 @@
-[local]
-control ansible_connection=local ansible_python_interpreter=auto
-
-[test]
-test1 ansible_host=192.168.26.21 ansible_python_interpreter=auto_silent
-

@@ -1,6 +1,6 @@
 ---
 - name: Update web servers
-  hosts: test
+  hosts: all
   remote_user: test
 
   tasks:

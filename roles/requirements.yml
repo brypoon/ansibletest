@@ -1,0 +1,15 @@
+---
+# from galaxy
+- src: syncrou.manageiq-automate
+- src: syncrou.manageiq-vmdb
+# from GitHub
+- src: https://github.com/pemcg/ansible-role-listvars
+  version: master
+  name: ansible-role-listvars
+# from a webserver, where the role is packaged in a tar.gz
+- src: https://some.webserver.example.com/files/master.tar.gz
+  name: http-role
+# from GitLab or other git-based scm
+- src: git@gitlab.company.com:mygroup/ansible-base.git
+  scm: git
+  version: "0.1"  # quoted, so YAML doesn't parse this as a floating-point value

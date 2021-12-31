@@ -3,8 +3,8 @@
 - src: syncrou.manageiq-automate
 - src: syncrou.manageiq-vmdb
 # from GitHub
-- src: https://github.com/pemcg/ansible-role-listvars
-  version: master
+- src: https://github.com/brypoon/ansibletest
+  version: main
   name: ansible-role-listvars
 # from a webserver, where the role is packaged in a tar.gz
 - src: https://some.webserver.example.com/files/master.tar.gz

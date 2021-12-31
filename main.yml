@@ -1,6 +1,5 @@
 ---
 - name: List Variables
   hosts: all
-  
   roles:
-      - ansible-role-listvars
+          - ansible-role-listvars
